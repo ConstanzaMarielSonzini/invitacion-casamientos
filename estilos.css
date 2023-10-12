@@ -223,9 +223,9 @@ body {
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 10px 60px;
-    background-color:#0f1ccf25;
-    color: #11057eda;
-    border: 2px solid #11057e67;
+    background-color: #3c2e0466;
+    color: #3c2e04;
+    border: 2px solid #3c2e04;
     border: 2px solid;
     border-radius: 40px;
     font-size: 35px;
@@ -259,7 +259,7 @@ body {
   }
   
   .footer-info {
-    font-size: 12px;
+    font-size: 16px;
     display: inline-block;
     margin-inline:2%;
     padding: 10px;
