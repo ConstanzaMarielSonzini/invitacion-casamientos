@@ -17,5 +17,3 @@ const countdownInterval = setInterval(() =>{
     document.getElementById("countdown").innerHTML = "¡La cuenta regresiva ha terminado";
   }
 }, 1000);
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
