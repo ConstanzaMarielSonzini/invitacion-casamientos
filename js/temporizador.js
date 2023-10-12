@@ -9,7 +9,7 @@ const countdownInterval = setInterval(() =>{
   const minutes = Math.floor ((distance %(1000*60*60)) / (1000*60));
   const seconds = Math.floor ((distance %(1000*60)) / 1000);
 
-  document.getElementById("countdown").innerHTML = `${days} días ${hours} h ${minutes} m ${seconds} s`;
+  document.getElementById("countdown").innerHTML = `${days} dìas ${hours} h ${minutes} m ${seconds} s`;
 
   if(distance <0){
     clearInterval(countdownInterval);
@@ -17,3 +17,5 @@ const countdownInterval = setInterval(() =>{
     document.getElementById("countdown").innerHTML = "¡La cuenta regresiva ha terminado";
   }
 }, 1000);
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
