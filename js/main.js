@@ -7,4 +7,3 @@ img1.addEventListener('mouseover', () => {
   img1.src = 'img1.jpg';
 });
 
-
