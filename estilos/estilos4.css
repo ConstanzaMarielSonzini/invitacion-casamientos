@@ -15,7 +15,7 @@ body {
   
   .fondo-luigina {
     position: relative;
-    background-image: url(imagenes/img5.jpg);
+    background-image: url(../imagenes/img5.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
