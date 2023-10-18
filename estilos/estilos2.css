@@ -199,21 +199,21 @@ nav a:hover {
   margin-top: 50px;
   align-items: center;
   justify-content: center;
+  border-radius: 40px;
   
 }
 
-.conteiner-servicios .imagen-nueva {
+.conteiner-servicios .imagen-nueva2 {
   position: relative;
   margin: 10px;
-  max-width: 25%;
-  
+  max-width: 25%; 
   
 }
 
-.imagen-nueva img, .hover-image {
+.imagen-nueva2 img, .hover-image {
   max-width: 100%;
   height: auto;
-  transition: transform 0.5s;
+  transition: transform 0.3s;
   border-radius: 20px;
   
 }
@@ -225,13 +225,13 @@ nav a:hover {
   opacity: 0;
 }
 
-.imagen-nueva:hover img {
-  transform: scale(1.05);
+.imagen-nueva2:hover img {
+  transform: scale(1.03);
   
   
 }
 
-.imagen-nueva:hover .hover-image {
+.imagen-nueva2:hover .hover-image {
   opacity: 2;
 }
 
